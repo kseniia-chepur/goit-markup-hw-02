@@ -1,0 +1,179 @@
+:root {
+  --color-primary: #212121;
+  --color-secondary: #757575;
+  --color-brand: #2196F3;
+  --color-light: #fff;
+  --color-gray: #F5F4FA;
+  --color-bg-dark: #2F303A;
+  --color-logo: #000;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  color: var(--color-primary);
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style-type: none;
+}
+
+address {
+  font-style: normal;
+}
+   
+/* Header */
+.header-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color: var(--color-logo);
+}
+
+.header-logo .accent {
+  color: var(--color-brand);
+}
+
+.header-link {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--color-primary);
+}
+
+.header-link:hover {
+  color: var(--color-brand);
+}
+
+.contacts-link {
+  font-weight: 500;
+  line-height: 1.17;
+  color: var(--color-secondary);
+}
+
+.contacts-link:hover {
+  color: var(--color-brand);
+}
+
+/* Hero section */
+.hero-section {
+  background-color: var(--color-bg-dark);
+}
+
+.hero-title {
+  font-size: 46px;
+  font-weight: 900;
+  line-height: 1.36;
+  color: var(--color-light);
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.hero-button {
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 1.875;
+  color: var(--color-light);
+  border: none;
+  background-color: var(--color-brand);
+  text-align: center;
+ }
+
+.section-title {
+  font-size: 36px;
+  font-weight: 700;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Benefits section */
+.benefit-title {
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.benefit-text {
+  font-size: 14px;
+  line-height: 1.7;
+  color: var(--color-secondary);
+}
+
+/* Team section */
+.person-name {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.17;
+}
+
+.person-job {
+  color: var(--color-secondary);
+  font-size: 16px;
+  line-height: 1.17;
+}
+
+/* Footer */
+.footer {
+  background-color: var(--color-bg-dark);
+}
+
+.footer-logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.17;
+  color:var(--color-light);  
+}
+
+.footer-logo .accent {
+  color: var(--color-brand);
+}
+
+.address-link {  
+  color:var(--color-light);
+}
+
+.footer-link {
+  color:#ffffff99;
+}
+
+/* Portfolio page */
+.nav-button {
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1.6;
+  color: var(--color-primary);
+  background-color: var(--color-gray);
+  width: 130px;
+  height: 38px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.nav-button:hover {
+  color: var(--color-light);
+  background-color: var(--color-brand); 
+  box-shadow: 0px 2px 2px 0px rgba(0, 0, 0, 0.12), 0px 1px 2px 0px rgba(0, 0, 0, 0.08), 0px 3px 1px 0px rgba(0, 0, 0, 0.10);
+}
+
+.portfolio-title {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 2;  
+}
+
+.portfolio-type {
+  font-size: 16px;
+  line-height: 1.875;
+  color: var(--color-secondary);
+}
+
+.portfolio-photo {
+  width: 370px;
+  height: 294px;
+}
